@@ -1,5 +1,52 @@
-body {
+h1, nav, figcaption, p {
   width: 100%;
   height: 100%;
-  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aqua;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+
+p.featured-property {
+  width: 800px;
+  padding: 15px;
+  text-align: center;
+}
+
+div {
+  float: left;
+  width: 25%;
+  background-color: red;
+  text-align: center;
+}
+
+.div1 {
+  float: left;
+  width: 25%;
+  background-color: red;
+  text-align: center;
+}
+.div2 {
+  float: left;
+  width: 25%;
+  background-color: red;
+  text-align: center;
+}
+.div3 {
+  float: left;
+  width: 25%;
+  background-color: red;
+  text-align: center;
 }
